@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tiponboard-dev-180527-authRole",
+      "UnauthRoleArn": "arn:aws:iam::013537969376:role/amplify-tiponboard-dev-180527-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::013537969376:role/amplify-tiponboard-dev-180527-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-tiponboard-dev-180527-deployment",
+      "UnauthRoleName": "amplify-tiponboard-dev-180527-unauthRole",
+      "StackName": "amplify-tiponboard-dev-180527",
+      "StackId": "arn:aws:cloudformation:ca-central-1:013537969376:stack/amplify-tiponboard-dev-180527/227ebff0-54b1-11ed-8362-0e6f53dd7142",
+      "AmplifyAppId": "d2u2kcipbwfb4",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-tiponboard-dev-180527-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "tiponboarda4bcd532a4bcd532": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tiponboard-dev-180527-authRole",
+      "UnauthRoleArn": "arn:aws:iam::013537969376:role/amplify-tiponboard-dev-180527-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::013537969376:role/amplify-tiponboard-dev-180527-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-tiponboard-dev-180527-deployment",
+      "UnauthRoleName": "amplify-tiponboard-dev-180527-unauthRole",
+      "StackName": "amplify-tiponboard-dev-180527",
+      "StackId": "arn:aws:cloudformation:ca-central-1:013537969376:stack/amplify-tiponboard-dev-180527/227ebff0-54b1-11ed-8362-0e6f53dd7142",
+      "AmplifyAppId": "d2u2kcipbwfb4"
+    }
+  },
+  "function": {},
+  "auth": {
+    "tiponboarda4bcd532a4bcd532": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-tiponboard-dev-180527-deployment/amplify-cfn-templates/auth/tiponboarda4bcd532a4bcd532-cloudformation-template.json",
+        "logicalId": "authtiponboarda4bcd532a4bcd532"
+      },
+      "lastPushTimeStamp": "2022-10-25T23:25:20.270Z",
+      "output": {
+        "UserPoolId": "ca-central-1_LcVLW4fOT",
+        "AppClientIDWeb": "6vus4fl7l85dcl3hjkfo7euf39",
+        "AppClientID": "3j52239bs7j0mj4gfp7155gq33",
+        "IdentityPoolId": "ca-central-1:797e43a2-29fa-4195-9c68-874a450bc4d1",
+        "UserPoolArn": "arn:aws:cognito-idp:ca-central-1:013537969376:userpool/ca-central-1_LcVLW4fOT",
+        "IdentityPoolName": "tiponboarda4bcd532_identitypool_a4bcd532__dev",
+        "UserPoolName": "tiponboarda4bcd532_userpool_a4bcd532"
+      },
+      "lastPushDirHash": "LZ35YKsidbLBy1Wk6rSbI4Xp01I="
+    }
+  }
+}
